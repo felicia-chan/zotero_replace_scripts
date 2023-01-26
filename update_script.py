@@ -26,4 +26,4 @@ def find_num(string):
 
 zotero['Extra'] = zotero['Extra'].apply(find_num)
 
-zotero.to_csv("updated_zotero.csv", sep=",")
+zotero.to_csv("updated_zotero.csv", sep=",", index=False)
